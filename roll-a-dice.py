@@ -1,0 +1,42 @@
+#O terminal não estava abrindo, não consegui ver se o projeto estava certo
+import random
+response = str(input("y"))
+while response == "y":
+    no = random.randint(1,6)
+if no == 1:
+    print("[-----]")
+    print("[     ]")
+    print("[  0  ]")
+    print("[     ]")
+    print("[-----]")
+if no == 2:
+    print("[-----]")
+    print("[0    ]")
+    print("[     ]")
+    print("[    0]")
+    print("[-----]")
+if no == 3:
+    print("[-----]")
+    print("[0    ]")
+    print("[  0  ]")
+    print("[    0]")
+    print("[-----]")
+if no == 4:
+    print("[-----]")
+    print("[0   0]")
+    print("[     ]")
+    print("[0   0]")
+    print("[-----]")
+if no == 5:
+    print("[-----]")
+    print("[0   0]")
+    print("[  0  ]")
+    print("[0   0]")
+    print("[-----]")
+if no == 6:
+    print("[-----]")
+    print("[0 0 0]")
+    print("[     ]")
+    print("[0 0 0]")
+    print("[-----]")
+response = str(input("Clique y para continuar e n para sair"))
